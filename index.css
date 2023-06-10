@@ -1,0 +1,232 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+.bg-image {
+    background-image: url("https://miro.medium.com/v2/resize:fit:700/0*l9jKAGAU0bEJqpRS");
+    filter: blur(8px);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-text {
+    color: rgb(0, 53, 41);
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.rounded{
+    border-top:10px solid #898989;
+    border-radius:5px;
+    width: 80%;
+    margin-bottom: 7%;
+}
+
+.izobrazba{
+    margin-top: 15%;
+    font-size: 35px;
+    font-family: sans-serif; 
+    text-align: center;
+}
+
+.izobrazbaodg{
+    margin-top: 7%;
+    margin-bottom: 15%;
+    font-size:20px; 
+    font-family:sans-serif; 
+    text-align: center;
+}
+
+.kontakti{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    font-size: 35px;
+    font-family: sans-serif; 
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding-left: 2px;
+  }
+
+.slika{
+    align-items: center;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+  }
+  
+.slika:hover{
+    background-color: rgb(24, 27, 43);
+    transition: 0.3s;
+    box-shadow: 10px 10px 20px #000000b4;
+    opacity: 0.9;
+    filter: grayscale(0.5);
+    scale: 1.1;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 50px;
+    font-size: 160%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+  
+li {
+    border-right: 1px solid #bbb;
+}
+  
+li:last-child {
+    border-right: none;
+}
+
+@media screen and (max-width: 750px) {
+    body, html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    * {
+       box-sizing: border-box;
+    }
+    
+    .bg-image {
+        background-image: url("https://miro.medium.com/v2/resize:fit:700/0*l9jKAGAU0bEJqpRS");
+        filter: blur(8px);
+        height: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .bg-text {
+        color: rgb(0, 53, 41);
+        font-weight: bold;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .p1{
+        font-size: 10px;
+    }
+
+    .izobrazba{
+        margin-top: 15%;
+        font-size: 25px;
+        font-family: sans-serif; 
+        text-align: center;
+    }
+    
+    .izobrazbaodg{
+        margin-top: 7%;
+        margin-bottom: 15%;
+        font-size:15px; 
+        font-family:sans-serif; 
+        text-align: center;
+    }
+
+    .kontakti{
+        margin-top: 15%;
+        margin-bottom: 5%;
+        font-size: 25px;
+        font-family: sans-serif; 
+        text-align: center;
+    }
+    
+    .contact {
+        list-style: none;
+        display: block;
+      }
+    
+      
+    .slika:hover{
+        background-color: rgb(24, 27, 43);
+        transition: 0.3s;
+        box-shadow: 10px 10px 20px #000000b4;
+        opacity: 0.9;
+        filter: grayscale(0.5);
+        scale: 1.1;
+    }
+
+    .navbar{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        height: 50px;
+        font-size: 160%;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: #111;
+    }
+      
+    li {
+        border-right: 1px solid #bbb;
+    }
+      
+    li:last-child {
+        border-right: none;
+    }
+}
